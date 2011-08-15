@@ -10,6 +10,5 @@ Its a modification of [jQuery lightBox](http://leandrovieira.com/projects/jquery
     * View small photos too 
 
 jQuery largePhotoBox it's simple and easy to use.
-Demo:
 
-See here a little demonstration of it in action: [See a demo](http://www.interag.net/largephotobox "Demo Web Site")
+See here a little demonstration of it in action: [See a demo page](http://www.interag.net/largephotobox "Demo Web Site")
