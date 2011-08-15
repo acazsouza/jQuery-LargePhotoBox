@@ -1,0 +1,14 @@
+17/08/09 17:44
+- Deletei uns comentários.
+- Adicionei o AD-Gallery na pasta _exemplos para usar como base.
+- Alguns ajustes.
+
+16/08/09 13:35
+- MELHORANDO a funcionalidade de clicar e a imagem reduzir a 100% e clicar novamente ela aumentar ao tamanho original.
+- coloquei fade entre as mudanças.
+
+15/08/09 21:42
+- coloquei a funcionalidade de clicar e a imagem reduzir a 100% e clicar novamente ela aumentar ao tamanho original.
+
+09/08/09 02:21
+- organizei a ordem das fotos na p�gina de exemplo.

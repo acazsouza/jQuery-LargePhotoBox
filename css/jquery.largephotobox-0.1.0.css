@@ -1,0 +1,55 @@
+/**
+ * jQuery largePhotoBox plugin
+ * This jQuery plugin was inspired and based on lightBox by Leandro Vieira (http://leandrovieira.com/projects/jquery/lightbox/)
+ * and the Parallax effect of Danilo (http://www.tidbits.com.br/myparallax-parallax-com-javascript-com-jquery)
+ * and modified by me.
+ * @name jquery-largephotobox-0.1.0.css
+ * @author Acaz Souza Pereira - acazsouza@gmail.com
+ * @version 0.1.0
+ * @date August 07, 2009
+ * @category jQuery plugin
+ * @copyright (c) 2009 Acaz Souza Pereira (acazsouza@gmail.com)
+ * @license CC Attribution-No Derivative Works 2.5 Brazil - http://creativecommons.org/licenses/by-nd/2.5/br/deed.en_US
+ * @example Visit http://code.google.com/p/jquery-largephotobox/ for more informations about this jQuery plugin
+ */
+
+#jquery-overlay {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	z-index:90
+}
+#jquery-largephotobox {
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	z-index:100;
+	line-height:0;
+	_position:absolute; /* Fix IE 6 */
+	_top: expression(document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop + 'px'); /* Fix IE 6 */
+	_left: expression(document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft + 'px') /* Fix IE 6 */
+}
+#jquery-largephotobox a img {border:none}
+#largephotobox-container {
+	position:fixed;
+	top:50%;
+	left:50%;
+	_position:absolute /* Fix IE 6 */
+}
+#largephotobox-container-image {
+	position:absolute;
+	overflow:hidden
+}
+#largephotobox-image {
+	position:absolute;
+	top:0;
+	left:0
+}
+#largephotobox-btnclose {
+    position:absolute;
+    top:-15px;
+    right:-15px;
+    z-index:1
+}
